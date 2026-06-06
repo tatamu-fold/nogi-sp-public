@@ -16,7 +16,7 @@ jobs:
         run: |
           git clone https://x-access-token:${PAT_GITHUB}@github.com/iamCristYE/nogi-sp.git
           cd nogi-sp
-          apt install ffmpeg
+          sudo apt install ffmpeg
 
       - name: Set up Python
         uses: actions/setup-python@v4
